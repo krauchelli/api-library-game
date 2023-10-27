@@ -69,10 +69,6 @@ const requestListener =(request, response) => {
                     }
 
                     array.push(newLibrary);
-                    const pindahKeLog = JSON.stringify(newLibrary, null, 2);
-                    fs.appendFileSync("./src/log.json", pindahKeLog, (err) => {
-                        console.log(err);
-                    });
                     const isSuccess = array.filter((array) => array.gameId === gameId).length > 0;
                     if (isSuccess) {
                         response.statusCode = 201;
