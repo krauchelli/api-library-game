@@ -49,6 +49,16 @@ const array = [
         gameName: "GINKA",
         genre: ["Anime", "Visual Novel", "Romance", "Drama"]
     },
+    {
+        gameId: "idroot-011",
+        gameName: "Witch of The Holy Night",
+        genre: ["Anime", "Visual Novel", "Action", "Fantasy", "Mystery",]
+    },
+    {
+        gameId: "idroot-012",
+        gameName: "The Evil Within",
+        genre: ["Action", "Horror", "Survival", "Thriller", "Mystery",]
+    }
 ];
 
 module.exports = array;
