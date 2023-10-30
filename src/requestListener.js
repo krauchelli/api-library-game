@@ -3,7 +3,7 @@ const { nanoid } = require('nanoid');
 const fs = require('fs');
 
 const requestListener =(request, response) => {
-    response.setHeader('Content-type', 'application/json');
+    response.setHeader('Content-type', 'application/json; charset=utf-8');
 
     //penambahan method dan url pada request
     const url = request.url.split('/')[1];
